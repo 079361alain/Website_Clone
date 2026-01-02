@@ -1,0 +1,146 @@
+
+.NavBar{
+     /* background-color:white; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    text-decoration-color: black;
+}
+
+
+.container{
+    padding: 0 20px;
+    max-width: 1200px;
+}
+.nav_wrapper{
+
+display: flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+padding : 10px 0;
+
+}
+.nav_links{
+display: flex;
+list-style: none;
+justify-content: space-between;
+gap: 30px;
+
+
+}
+.nav_links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+/* /* .hero_section{
+
+
+ background-image: url("https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg");
+    
+min-height: 100vh;
+align-items: center;
+justify-content: space-between;
+gap:30px;
+text-align:center;
+flex-direction: row;
+text-decoration: none;
+}
+.hero_1{
+    min-height: 100vh;
+align-items: center;
+justify-content: space-between;
+gap:30px;
+text-align:center;
+flex-direction: row;
+text-decoration: none;
+padding: 200px;
+
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    color:
+}
+
+h2{
+    color:blueviolet;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-radius: none;
+    height: 70px;
+    text-align: center;
+    padding: 600px;
+    cursor: pointer;
+
+
+}
+.btn1{
+    background-color: blueviolet;
+    border-radius: 10;
+    display: flex;
+    cursor: pointer;
+}
+.btn2{
+    background-color:yellow
+
+
+}
+.btn3{
+    background-color: white;
+}
+
+
+.content{
+    display: flex;
+    padding: 50px;
+
+}
+.content1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: blueviolet;
+
+}
+
+.content2 {
+    text-align: left;
+
+    
+    background-image: url("https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg"); */
+/* background-color: white;
+}
+.conten_1{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+.courses{
+    display:flex;
+    gap: 30px;
+    /* justify-content: space-between; 
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.footer{
+    background-color: blueviolet;
+    display: flex;
+}
+
+.foo{
+    text-align: center;
+}  */

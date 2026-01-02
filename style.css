@@ -1,6 +1,7 @@
 
+/* navbar section */
 .NavBar{
-     /* background-color:white; */
+     background-color: blue;
     top: 0;
     left: 0;
     width: 100%;
@@ -9,109 +10,385 @@
     text-decoration-color: black;
 }
 
-
 .container{
+
     padding: 0 20px;
     max-width: 1200px;
+
+
 }
 .nav_wrapper{
-
-display: flex;
-flex-direction:row;
-justify-content:space-between;
-align-items:center;
-padding : 10px 0;
-
-}
-.nav_links{
-display: flex;
-list-style: none;
-justify-content: space-between;
-gap: 30px;
-
-
-}
-.nav_links li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 20px;
-
-}
-.hero_section{
-
-
- background-image: url("https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg");
-    
-min-height: 100vh;
-align-items: center;
-justify-content: space-between;
-gap:30px;
-text-align:center;
-flex-direction: row;
-text-decoration: none;
-}
-.hero_1{
-    min-height: 100vh;
-align-items: center;
-justify-content: space-between;
-gap:30px;
-text-align:center;
-flex-direction: row;
-text-decoration: none;
-padding: 200px;
-
-}
-h1{
-    text-align: center;
-    color: blueviolet;
-    color:
-}
-
-h2{
-    color:blueviolet;
-}
-.buttons{
     display: flex;
-    gap: 30px;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    border-radius: none;
-    height: 70px;
+    padding: 10px 0;
+   
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 15px;
+
+
+}
+.nav_links li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    color:white
+}
+
+.search{
+    background-color: yellow;
+    border-radius: 1000px;
+    
+}
+ .dropdown{
+
+}
+.nav_links .dropdown_content{
+
+}
+
+
+
+/* hero section */
+.hero_section{
+    background-image: url("https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg");
+
+min-height: 100vh;
+display: grid;
+align-items: center;
+text-align: center;
+padding: 100px;
+gap: 10px;
+color: white ;
+
+}
+
+.section_btn{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
     text-align: center;
-    padding: 600px;
+    transition: 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 
 
+h4{
+    margin-top: 20px;
 }
 .btn1{
-    background-color: blueviolet;
-    border-radius: 10;
-    display: flex;
+
+text-decoration: none;
+font-size: 20px;
+border-radius: 8px;
+padding: 10px 20px;
+background-color:purple;
+color: white;
+
+
+
+
 }
 .btn2{
-    background-color:yellow
+
+text-decoration: none;
+font-size: 20px;
+border-radius: 8px;
+padding: 10px 20px;
+background-color: yellow;
+color: white
+
 
 
 }
 .btn3{
+text-decoration:none ;
+text-decoration: none;
+font-size: 20px;
+border-radius: 8px;
+padding: 15px 30px;
+background-color: white;
+color: blueviolet;
+}
+
+
+.section_btn .btn1:hover{
     background-color: white;
-}
-
-
-.content{
-    display: flex;
-    padding: 50px;
-
-}
-.content1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
     color: blueviolet;
 }
 
-.content2 {
-    text-align: left;
-    /* background-image: url("https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg"); */
-background-color: white;
+.section_btn .btn2:hover{
+    background-color: white;
+     color: blueviolet;
 }
+.section_btn .btn3:hover{
+    background-color: rgb(6, 22, 20);
+    color:white,
+}
+.main{
+
+display: flex;
+padding: 50px;
+
+}
+h3{
+    font-size: 30px;
+    color: blueviolet;
+
+}
+h4{
+    font-size: 18px;
+    color: aqua;
+}
+p{
+    font-size: 18px;
+    font: weight 300px; ;
+
+}
+
+/* refactory academy section  */
+
+
+.main_image{
+    background-image: url("https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg");
+}
+
+.main_content a{
+text-decoration:none ;
+text-decoration: none;
+font-size: 20px;
+border-radius: 8px;
+padding: 15px 30px;
+background-color:yellow;
+color: blueviolet;
+}
+
+.main_content a:hover{
+    background-color: blue;
+    
+}
+
+
+/* start your dream section */
+
+
+.header{
+    color: teal;
+    text-align: center;
+
+}
+.subheader{
+    color: purple;
+    text-align: center;
+
+}
+
+
+.cards{
+    display:grid; grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+
+.card_1{
+    padding: 20px;
+}
+
+.card_2{
+    padding: 20px;
+    
+}
+
+.card_3{
+    padding: 20px;
+
+}
+
+.cards .card_btn{
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: yellow;
+    justify-content: end;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+padding: 15px 30px;
+font-size: 20px;
+}
+
+
+.cards.card_btn:hover{
+
+    color:rgb(4, 91, 75);
+ background-color:blue;
+
+}
+
+/* footer */
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    background-color: #5c054f;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.logo_footer{
+width: 500x;
+height: 25px; ;
+}
+.icon{
+    display: flex;
+
+}
+
+.resources {
+    color:teal;
+    text-decoration: none;
+    list-style: none;
+
+}
+.resources p{
+    color: white;
+}
+
+
+.resources ul{
+    list-style: none;
+}
+.resources ul li a{
+    text-decoration: none;
+    color: white;
+}
+.intouch{
+    color: teal;
+
+}
+
+.intouch a {
+ 
+display: flexbox;
+
+text-decoration: none;
+color: white;
+justify-content: space-between;
+}
+
+ 
+.resources ul li a:hover {
+    text-decoration: none;
+    color: teal
+
+
+} 
+
+
+/* visist section */
+
+.visit h1 {
+    color: teal;
+}
+
+
+.visit p{
+    color:white;
+}
+.visit li a{
+    text-decoration: none; 
+    color: teal;
+    font-size: 25px;
+}
+
+
+.icon{
+    margin-top: 20px;
+ gap: 10px;
+
+}
+.icon a {
+    text-decoration: none;
+    font-size:30px;
+    transition:0.3s;
+    color:white;
+    font-weight: 200px;
+
+}
+
+.facebook{
+    background-color: rgb(0, 102, 139);
+    border-radius: 100px;
+
+}
+.twitter{
+      background-color: rgb(0, 109, 139);
+    border-radius: 100px;
+}
+.instagram{
+      background-color: black;
+    border-radius: 100px;
+}
+.linkedin{
+
+      background-color: rgb(17, 89, 178);
+    border-radius: 100px;
+}
+.youtube {
+      background-color: red;
+    border-radius: 100px;
+}
+
+.rserved{
+    display: flex;
+}
+
+/* .learmore .learmore_btn{
+background-color: blue;
+
+} */
+/* .nav_wrapper{
+    display: flex;
+  
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px 0; 
+    
+} */
+
+ /* .nav_links{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 30px;
+ } */
+ /* .nav_links li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 800px;
+    display: flex;
+ 
+ } */
 
